@@ -135,7 +135,6 @@ address {
 
 }
    .content-wrapper {
-  outline: 3px dotted red;
   width: 90%;
   margin: 50px 0;
 }
@@ -200,13 +199,20 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #527158;
+  
 }
 
-footer .social-icons p{
+footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 footer .copyright {
   margin: 20px 0;
@@ -581,7 +587,7 @@ footer h4 {
 }
 footer p {
   line-height: 1.285;
-}
+
 footer .copyright {
   width: 100%;
 }
