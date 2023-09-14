@@ -286,6 +286,11 @@ input[type=button] {
   align-items: flex-start;
   flex-flow: row wrap;
 }
+.features i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
+    
+}
 .features p {
   margin: 0;
   text-align: center;
@@ -680,6 +685,7 @@ aside .content-wrapper .form-description,
 .features h2 {
   width: 90%;
 }
+
 .features article {
   flex-basis: 33%;
 }
