@@ -153,6 +153,9 @@ header .content-wrapper {
   flex-flow: row wrap;
   margin: 0;
 }
+header figure {
+  width: 60%;
+}
 
 .header-divider {
   width: 100%;
@@ -165,9 +168,8 @@ header .content-wrapper {
 header nav {
   width: 60%;
   font-size: 1.125;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
-
 }
 
 header nav ul {
@@ -281,6 +283,7 @@ input[type=button] {
 }
 .features h2 {
   margin-bottom: 60px;
+  text-align: center;
 }
 .features article {
   width:63%;
@@ -328,6 +331,7 @@ input[type=button] {
   justify-content: center;
 
 }
+
 .map figure {
   width: 100%;
   height: 0;
