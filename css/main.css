@@ -134,7 +134,7 @@ address {
   font-style: normal;
 
 }
-   .content-wrapper {
+.content-wrapper {
   width: 90%;
   margin: 50px 0;
 }
@@ -587,6 +587,10 @@ footer h4 {
 }
 footer p {
   line-height: 1.285;
+}
+footer .social-icons {
+  width: 12rem;
+}
 
 footer .copyright {
   width: 100%;
