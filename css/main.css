@@ -167,7 +167,7 @@ header figure {
 
 header nav {
   width: 60%;
-  font-size: 1.125;
+  font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -478,7 +478,7 @@ faq h4 {
    /*General Styles*/
    .content-wrapper {
     max-width: 640px;
-    margin: 100px o;
+    margin: 100px 0;
    }
 h1 {
   font-size: 3em;
@@ -494,7 +494,7 @@ h3 {
 }
  
    header {
-    padding: 33xp 0;
+    padding: 33px 0;
    }
    header .content-wrapper {
     width: 100%;
@@ -816,4 +816,3 @@ faq p {
     page-break-after: avoid;
   }
 }
-
